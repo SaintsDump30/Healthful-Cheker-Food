@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>healthful Checker Food</title>
 </head>
 <body>
     
@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
 
 ?>
 
-<form action="index.php">
+<form action="index.php" method="post">
     <p>Enter a food</p>
     <input type="text" name="food">
     <input type="submit"  name="submit">
